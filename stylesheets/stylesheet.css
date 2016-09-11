@@ -60,6 +60,7 @@ a {
   padding: 1.5rem 6rem;
   background-image: url("Pluto.png");
   background-size: cover;
+  background-position: 50% 50%;
   background-color: #cccccc; }
   
 
