@@ -14,6 +14,10 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+    
+.btnhr {
+  width: 10%;
+}
 
 .btn {
   display: inline-block;
