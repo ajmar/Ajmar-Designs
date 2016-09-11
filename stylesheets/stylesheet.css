@@ -59,7 +59,7 @@ a {
   text-align: center;
   padding: 1.5rem 6rem;
   background-image: url("Pluto.png");
-  background-size: contain;
+  background-size: cover;
   background-color: #cccccc; }
   
 
