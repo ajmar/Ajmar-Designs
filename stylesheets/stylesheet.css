@@ -62,7 +62,8 @@ a {
   background-image: url("Pluto.png");
   background-size: cover;
   background-position: 50% 50%;
-  background-color: #cccccc; }
+  background-color: #cccccc;
+  background-attachment:fixed }
 
 
 .project-name {
