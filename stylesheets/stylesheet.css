@@ -62,7 +62,7 @@ a {
   background-image: url("Pluto.png");
   background-size: auto 40%;
   background-attachment: fixed;
-  background-position: 0% 50%;
+  background-position: 0% 0%;
   background-color: #cccccc;
 }
 
@@ -72,12 +72,9 @@ a {
   margin-bottom: 1rem;
   color: rgba(0, 0, 0, 0.85);
   height: 100%;
-  background-image: url("Header-name.png");
-  background-size: cover;
   background-color: rgba(255, 255, 255, 0.6);
   border-color: rgba(255, 255, 255, 0.45);
   border-style: solid;
-  overflow: hidden;
   border-width: 1px;
   border-radius: 0.3rem;
   padding: 0rem 0rem;
