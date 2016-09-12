@@ -60,7 +60,7 @@ a {
   text-align: center;
   padding: 1.5rem 6rem;
   background-image: url("Pluto.png");
-  background-size: auto 20%;
+  background-size: auto 40%;
   background-attachment: fixed;
   background-position: 0% 50%;
   background-color: #cccccc;
@@ -77,6 +77,7 @@ a {
   background-color: rgba(255, 255, 255, 0.6);
   border-color: rgba(255, 255, 255, 0.45);
   border-style: solid;
+  overflow: hidden;
   border-width: 1px;
   border-radius: 0.3rem;
   padding: 0rem 0rem;
