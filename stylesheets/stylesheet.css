@@ -60,8 +60,8 @@ a {
   text-align: center;
   padding: 1.5rem 6rem;
   background-image: url("Pluto.png");
-  background-size: cover;
-  background-position: 50% 50%;
+  background-size: auto 30%;
+  background-position: 50% 30%;
   background-color: #cccccc;
 }
 
@@ -70,16 +70,16 @@ a {
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(0, 0, 0, 0.85);
-  height: 30%;
+  height: 100%;
   background-image: url("Header-name.png");
-  background-size: auto 30%
+  background-size: cover;
   background-color: rgba(255, 255, 255, 0.6);
   border-color: rgba(255, 255, 255, 0.45);
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
-  padding: 0.75rem 1rem;
-  vertical-align: top; }
+  padding: 0rem 0rem;
+  vertical-align: bottom; }
 
 .project-tagline {
   margin-bottom: 2rem;
