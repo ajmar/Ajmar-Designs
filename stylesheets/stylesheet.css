@@ -62,7 +62,10 @@ a {
   background-image: url("Pluto.png");
   background-size: auto 50%;
   background-attachment: fixed;
-  background-position: 0% 0%;
+  height: 500;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   background-color: #cccccc;
 }
 
