@@ -56,17 +56,16 @@ a {
   border-color: rgba(255, 255, 255, 0.375); }
 
 .page-header {
-  color: #fff;
-  text-align: center;
-  padding: 1.5rem 6rem;
-  background-image: url("Pluto.png");
-  background-size: auto 10%;
-  background-attachment: fixed;
-  height: 200;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: #cccccc;
+	color: #fff;
+	text-align: center;
+	padding: 1.5rem 6rem;
+	background-image: url("Pluto.png");
+	background-size: auto 31.3rem;
+	background-attachment: fixed;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #cccccc;
 }
 
 
