@@ -76,8 +76,8 @@ a {
 	text-transform: capitalize;
 	letter-spacing: .5em;
 	font-weight: 100;
-	font-style: oblique;
-	color: RGBA(0, 0, 0, 0.75);
+	font-style: normal;
+	color: RGBA(0, 0, 0, 0.9);
 }
 
 .project-tagline {
