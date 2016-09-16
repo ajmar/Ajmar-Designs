@@ -57,11 +57,11 @@ a {
 	text-align: left;
 	padding: 1.5rem 2.1rem;
 	background-image: url("PlutoFlip_2.png");
-	background-size: auto 38.15rem;
+	background-size: auto 30rem;
 	background-attachment: fixed;
 	height: 410px;
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: left top;
 	background-color: #cccccc;
 }
 
