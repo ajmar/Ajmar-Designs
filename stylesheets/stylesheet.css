@@ -17,7 +17,7 @@ a {
     
 .btnhr {
   width: 10%;
-  line-height: 30px;
+  line-height: 75px;
   color: rgba(0, 0, 0, 0);
   
 }
@@ -59,7 +59,7 @@ a {
 	background-image: url("PlutoFlip_2.png");
 	background-size: auto 35.5rem;
 	background-attachment: fixed;
-	height: 410px;
+	height: 35rem;
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-color: #cccccc;
