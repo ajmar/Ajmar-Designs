@@ -126,6 +126,8 @@ a {
 .caption-1, .caption-2, .caption-3 {
 	text-align: center;
 	color: #000;
+	position: relative;
+	top: 47.98%;
 }
 
 .main-content :first-child {
