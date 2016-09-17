@@ -101,6 +101,20 @@ a {
 	color: #111;
 }
 
+.designbox-1, .designbox-2, .designbox-3 {
+	position: relative;
+	opacity: 0.65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.designbox-1 {
+	background-image: url("Wonder.jpg");
+	min-height: 400px;
+}
+
 .main-content :first-child {
   margin-top: 0; }
 .main-content img {
