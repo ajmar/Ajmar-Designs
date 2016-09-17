@@ -106,6 +106,8 @@ a {
 	background-color: RGBA(62, 62, 62, 0.92);
 	letter-spacing: 10px;
 	padding: 18px;
+	position: relative;
+	top: 47.98;
 }
 
 .designbox-1 {
