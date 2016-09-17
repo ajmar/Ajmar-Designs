@@ -104,7 +104,7 @@ a {
 .designbox-1, .designbox-2, .designbox-3 {
 	position: relative;
 	opacity: 0.65;
-	background-position: left top;
+	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: auto 51.1rem;
 }
