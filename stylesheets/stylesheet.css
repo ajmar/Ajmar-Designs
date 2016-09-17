@@ -101,11 +101,12 @@ a {
 	color: #111;
 }
 
-.caption-1, .caption-2, .caption-3 {
-	text-align: center;
-	color: #000;
+.designbox-1, .designbox-2, .designbox-3 {
 	position: relative;
-	top: 47.98%;
+	opacity: 0.65;
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: auto 51.1rem;
 }
 
 .designbox-1 {
@@ -125,8 +126,6 @@ a {
 .caption-1, .caption-2, .caption-3 {
 	text-align: center;
 	color: #000;
-	position: relative;
-	top: 45%;
 }
 
 .main-content :first-child {
