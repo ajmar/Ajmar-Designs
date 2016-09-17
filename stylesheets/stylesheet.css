@@ -94,6 +94,13 @@ a {
 	color: RGBA(0, 0, 0, 0.89);
 }
 
+.h5 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px "Lato", sans-serif;
+	color: #111;
+}
+
 .main-content :first-child {
   margin-top: 0; }
 .main-content img {
