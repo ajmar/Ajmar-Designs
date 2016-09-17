@@ -115,6 +115,14 @@ a {
 	min-height: 400px;
 }
 
+.caption-1 span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
 .main-content :first-child {
   margin-top: 0; }
 .main-content img {
