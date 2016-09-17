@@ -101,13 +101,13 @@ a {
 	color: #111;
 }
 
-.caption-1, .caption-2, .caption-3 {
+.caption {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
 	text-align: center;
-	background-color: RGBA(62, 62, 62, 0.92);
-	letter-spacing: 10px;
-	padding: 18px;
-	position: relative;
-	top: 47.98;
+	color: #000;
 }
 
 .designbox-1 {
@@ -120,18 +120,15 @@ a {
 
 .caption-1 span.border-1 {
 	color: #fff;
-
 	font-size: 25px;
 	position: relative;
 	top: 47.98%;
 	padding-right: 9px;
-}
+	padding: 18px;
+	background-color: RGBA(62, 62, 62, 0.92);
+	letter-spacing: 10px;
 
-.caption-1, .caption-2, .caption-3 {
-	text-align: center;
-	color: #000;
-	position: relative;
-	top: 45%;
+	
 }
 
 .main-content :first-child {
