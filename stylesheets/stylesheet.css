@@ -114,12 +114,17 @@ a {
 	min-height: 28rem;
 }
 
-.caption-1 span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+.caption-1 span.border-1 {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+
+.caption-1, .caption-2, .caption-3 {
+	text-align: center;
+	color: #000;
 }
 
 .main-content :first-child {
