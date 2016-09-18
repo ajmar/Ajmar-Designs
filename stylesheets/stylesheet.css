@@ -106,17 +106,18 @@ a {
 	opacity: 0.65;
 	background-position: center top;
 	background-repeat: no-repeat;
-	background-size: auto 51.1rem;
 }
 
 .designbox-1 {
 	background-image: url("Wonder.png");
 	min-height: 28rem;
+	background-size: auto 51.1rem;
 }
 
 .designbox-2 {
 	background-image: url("Gallery.png");
 	min-height: 28rem;
+	background-size: auto 51.1rem;
 }
 
 .caption-1 span.border-1 {
