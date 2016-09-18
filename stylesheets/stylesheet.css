@@ -114,7 +114,21 @@ a {
 	min-height: 28rem;
 }
 
+.designbox-2 {
+	background-image: url("Gallery.png");
+	min-height: 28rem;
+}
+
 .caption-1 span.border-1 {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+	padding-right: 9px;
+}
+
+.caption-2 span.border-2 {
 	background-color: #111;
 	color: #fff;
 	padding: 18px;
