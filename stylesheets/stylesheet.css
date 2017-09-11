@@ -43,6 +43,15 @@ footer {
 }
 
 
+.design05 {
+    background-image: url(design05.png);
+    min-height: 800px;
+    background-position: center top;
+    background-size: auto 800px;
+    position: relative;
+}
+
+
 .education .item .university .year {
 	color: #b0b7bf;
 	font-weight: 500;
