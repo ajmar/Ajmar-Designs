@@ -1,6 +1,75 @@
 * {
   box-sizing: border-box; }
 
+@media only screen
+and (max-width : 1400px) {
+    .sections-wrapper {
+        background-color: #d46b6b !important;
+    }
+    .row {
+        margin-right: 2% !important;
+        margin-left: 2% !important;
+    }
+    .profile-image {
+        padding-left: 2.5% !important;
+    }
+    .project-name {
+        letter-spacing: .2em !important;
+    }
+}
+
+@media only screen
+and (max-width : 966px) {
+    .page-header {
+        display: inline-block !important;
+    }
+    .page-header {
+        height: 18.2rem !important;
+        margin-top: -2.8rem !important;
+    }
+    .profile-image {
+        margin: auto !important;
+        height: 230px !important;
+    }
+    .desktop {
+        display: none !important;
+    }
+    .profile-image {
+        display: block !important;
+    }
+}
+
+@media only screen
+and (min-width : 967px) {
+    .page-header {
+        background-color: #FFFFFF !important;
+        background-position: left top !important;
+        background-repeat: no-repeat !important;
+        background-size: auto 41rem !important;
+        background-attachment: fixed !important;
+    }
+    .mobile {
+        display: none !important;
+    }
+    .page-header {
+        height: 24rem !important;
+    }
+    .pull-left {
+        float: left !important;
+    }
+}
+
+@media only screen
+and (max-width : 840px) {
+    .project-name {
+        margin-bottom: -3.3rem !important;
+        font-size: 2.6rem !important;
+    }
+    .page-header {
+        height: 15.5rem !important;
+    }
+}
+
 footer {
     color: #cccccc;
     background-color: #32383e;
@@ -199,28 +268,17 @@ a {
     margin-bottom: -4rem;
 }
 
-.header .profile-image {
-	margin-right: 30px;
-    padding-left: 20rem;
+.profile-image {
+	margin-right: 1.6rem;
+    padding-left: 15%;
     margin-top: 1.6rem;
-}
-
-.pull-left {
-	float: left !important;
 }
 
 .page-header {
 	color: #fff;
 	text-align: left;
 	padding: 1.5rem 2.1rem;
-	background-size: auto 41rem;
-	background-attachment: fixed;
-	height: 24rem;
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-color: #FFFFFF;
     padding-left: 19rem;
-    padding-right: 19rem;
 }
 
 
