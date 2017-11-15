@@ -4,7 +4,7 @@
 @media only screen
 and (max-width : 1400px) {
     .sections-wrapper {
-        background-color: #d46b6b !important;
+        background-color: #d46b6b #important;
     }
     .row {
         margin-right: 2% !important;
