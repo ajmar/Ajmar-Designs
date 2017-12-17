@@ -2,16 +2,21 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Ed Moss | Portfolio</title>
+    <title>Eden Tyler-Moss | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="galleria/galleria-1.5.7.min.js"></script>
+    <style>
+    .galleria{ max-width: 1300px; background: #000 }
+    </style>
   </head>
 <script>
     if(window.innerHeight > window.innerWidth){
     alert("Sorry, my site currently doesn't properly support mobile browsers / vertical screens (I'm too lazy). Email contact@edmoss.me for questions.");
-}
+    }
 </script>
   <body>
     <header class="header">
@@ -49,13 +54,23 @@
         <div style="color: rgb(119, 119, 119); background-color: white; padding: 1cm 2cm; letter-spacing: 0.19px; text-align: center;">
             <h5 style="text-align: center; font-family: &quot;Lato&quot;; text-transform: uppercase; letter-spacing: 5px; font-size: 1rem; color: rgb(83, 83, 83);">Previous Work</h5>
              <p>Below you can find various pieces of artwork and photography that I have made / shot over the years. I will periodically update and add new images here, so stay tuned! [Work in progress]</p>
-          </div>
-        <div class="design01"></div>
-        <div class="design02"></div>
-        <div class="design03"></div>
-        <div class="design04"></div>
-        <div class="design05"></div>
-        <div class="design06"></div>
+        </div>
+        <div class="galleria">
+        <img src="stylesheets/design01.jpg">
+        <img src="stylesheets/design02.jpg">
+        <img src="stylesheets/design03.jpg">
+        </div>
+        <script>
+        (function() { 
+            Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+            Galleria.run('.galleria', {
+                height: 0.75
+            });
+        }());
+        </script>
+        <div style="color: rgb(119, 119, 119); background-color: white; padding: 1.5rem; letter-spacing: 0.19px; text-align: center;">
+            <h5 style="text-align: center; font-family: &quot;Lato&quot;; text-transform: uppercase; letter-spacing: 5px; font-size: 1rem; margin-top: 0px; margin-bottom: 0px; color: rgb(83, 83, 83);"><a href="fullscreen.html">Fullscreen</a></h5>
+        </div>
     </div>
     <div class="secondary_col columny">
         <aside class="info aside section">
