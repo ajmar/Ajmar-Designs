@@ -1,5 +1,28 @@
-* {
-  box-sizing: border-box; }
+@media only screen
+and (max-width : 999px) {
+    .page-header {
+        text-align: center !important;
+        width: 100%;
+    }
+}
+
+@media only screen
+and (min-width : 1000px) {
+    .page-header {
+        padding-left: 19rem;
+    }
+}
+
+@media only screen
+and (max-width : 540px) {
+    .profile-image {
+    height: 170px !important;
+    }
+    .project-name {
+    opacity: 0.75 !important;
+    font-size: 2.4rem !important;
+    }
+}
 
 @media only screen
 and (max-width : 1400px) {
@@ -21,21 +44,29 @@ and (max-width : 1400px) {
 @media only screen
 and (max-width : 966px) {
     .page-header {
+        height: 17.2rem !important;
+        margin-top: -2.3rem !important;
         display: inline-block !important;
-    }
-    .page-header {
-        height: 18.2rem !important;
-        margin-top: -2.8rem !important;
     }
     .profile-image {
         margin: auto !important;
-        height: 230px !important;
+        height: 230px;
+        display: block !important;
     }
     .desktop {
         display: none !important;
     }
-    .profile-image {
-        display: block !important;
+    .header {
+        background: #FFF !important;
+    }
+    h2 {
+        font-size: 1.2em !important;
+    }
+    .info ul {
+    font-size: 13px !important;
+    }
+    .sections-wrapper {
+    padding-top: 2rem !important;
     }
 }
 
@@ -47,15 +78,30 @@ and (min-width : 967px) {
         background-repeat: no-repeat !important;
         background-size: auto 41rem !important;
         background-attachment: fixed !important;
+        height: 24rem !important;
+        padding: 1.5rem 2.1rem;
     }
     .mobile {
         display: none !important;
     }
-    .page-header {
-        height: 24rem !important;
-    }
     .pull-left {
         float: left !important;
+    }
+    .header {
+        background: #f5f5f5;
+    }
+}
+
+@media only screen
+and (min-width : 841px) {
+    .project-name {
+    font-size: 3rem;
+    }
+    * {
+    box-sizing: border-box !important;
+    }
+    .primary_col {
+        width: 66.666667%;
     }
 }
 
@@ -63,10 +109,18 @@ and (min-width : 967px) {
 and (max-width : 840px) {
     .project-name {
         margin-bottom: -3.3rem !important;
-        font-size: 2.6rem !important;
+        font-size: 2.6rem;
     }
     .page-header {
         height: 15.5rem !important;
+        margin-top: -1.6rem !important;
+    }
+    .profile-image {
+    height: 200px;
+    }
+    .secondary_col {
+    width: -webkit-fill-available !important;
+    padding-top: 2rem;
     }
 }
 
@@ -198,10 +252,6 @@ h2 {
 	width: 33.33333333%;
 }
 
-.primary_col {
-    width: 66.66666667%
-}
-
 .columny {
 	position: relative;
 	min-height: 1px;
@@ -263,7 +313,6 @@ a {
 
 .header {
 	padding: 30px 0;
-	background: #f5f5f5;
 	border-top: 10px solid #778492;
     margin-bottom: -4rem;
 }
@@ -277,8 +326,6 @@ a {
 .page-header {
 	color: #fff;
 	text-align: left;
-	padding: 1.5rem 2.1rem;
-    padding-left: 19rem;
 }
 
 
@@ -288,7 +335,6 @@ a {
 	opacity: 0.7;
 	padding: 0px 4px;
 	font-family: "Playfair Display";
-	font-size: 3rem;
 	text-transform: capitalize;
 	letter-spacing: .5em;
 	font-weight: 100;
