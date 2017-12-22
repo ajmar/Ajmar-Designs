@@ -133,49 +133,7 @@ footer {
     padding-top: 30px;
 }
 
-.design01 {
-    background-image: url(design01.png);
-    min-height: 550px;
-    background-position: center top -50px;
-    background-size: auto 700px;
-    position: relative;
-}
-
-.design02 {
-    background-image: url(design02.png);
-    min-height: 550px;
-    background-position: center top -50px;
-    background-size: auto 700px;
-    position: relative;
-}
-
-.design03 {
-    background-image: url(design03.jpg);
-    min-height: 550px;
-    background-position: center top -50px;
-    background-size: auto 700px;
-    position: relative;
-}
-
-.design04 {
-    background-image: url(design04.png);
-    min-height: 800px;
-    background-position: center top;
-    background-size: auto 800px;
-    position: relative;
-}
-
-
-.design05 {
-    background-image: url(design05.png);
-    min-height: 515px;
-    background-position: center top;
-    background-size: auto 515px;
-    position: relative;
-}
-
-
-.education .item .university .year {
+.education .item .educationplace .year {
 	color: #b0b7bf;
 	font-weight: 500;
 }
@@ -201,7 +159,12 @@ ol, ul {
 	padding: 30px;
 }
 
-.education .item .university {
+.educationplace {
+    margin-top: 7px !important;
+    margin-bottom: 7px !important;
+}
+
+.education .item .educationplace {
 	font-family: "Lato", arial, sans-serif;
 	font-size: 13px;
 	color: #999;
@@ -212,10 +175,6 @@ ol, ul {
 .education .item .title {
 	font-size: 16px;
 	margin-top: 0;
-}
-
-.education .item {
-	margin-bottom: 30px;
 }
 
 .info ul {
