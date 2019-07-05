@@ -1,10 +1,10 @@
 #### \<contact>
 ___
-* Location:
+Location:
 
     Hebden Bridge, West Yorkshire, United Kingdom.
     
-* Email:
+Email:
 
     Primary:    eden@etylermoss.com
 
