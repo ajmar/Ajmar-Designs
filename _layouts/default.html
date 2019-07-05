@@ -20,9 +20,8 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p href="./gallery/index.html">Gallery</p>
-        <p href="./blog/index.html">Blog</p>
-        <p href="./contact/index.html">Contact</p>
+        <a href="{{ "/gallery/" | absolute_url }}">Gallery</a>
+        <a href="{{ "/blog/" | absolute_url }}">Blog</a>
         <a href="{{ "/contact/" | absolute_url }}">Contact</a>
       </header>
       <section>
